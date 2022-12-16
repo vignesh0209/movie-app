@@ -1,0 +1,148 @@
+.navbar {
+    max-width: 100%;
+    min-height: 70px;
+    background-color: #202538;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    
+
+}
+
+.inner-navbar {
+    width: 1100px;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+.logo h1 {
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+.logo h1 strong {
+    color: #f3d250;
+    cursor: pointer;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+   
+    
+}
+
+.login span {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 6px;
+    position: relative;
+
+}
+
+.login span::after {
+    content: '';
+    background: #f3d250;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.login span:hover::after {
+    width: 100%;
+}
+
+.free-trail span {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 10px;
+    background-color: #f3d250;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.free-trail span:hover {
+    opacity: 0.8;
+}
+
+.toggle-button {
+    cursor: pointer;
+    display: none;
+    color: #f3d250;
+}
+
+.navbar-content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #202538;
+    z-index: 10;
+}
+
+.navbar-content1 span {
+    padding: 15px 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+
+}
+
+.navbar-content1 span strong {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 10px;
+    background-color: #f3d250;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.navbar-content1 span strong:hover {
+    opacity: 0.8;
+}
+
+.navbar-content1 .log {
+    transition: all 0.25s;
+}
+
+.navbar-content1 .log:hover {
+  color: #f3d250;
+}
+
+@media (max-width:600px){
+    .toggle-button{
+        display: block;
+    }
+    .navbar-content {
+        display: none;
+
+    }
+}
+
+@media (min-width:600px) {
+    .navbar-content1 {
+        display: none;
+    }
+}

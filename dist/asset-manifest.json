@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d112938.css",
+    "main.js": "/static/js/main.d888facf.js",
+    "static/js/787.7c42db31.chunk.js": "/static/js/787.7c42db31.chunk.js",
+    "static/media/strangerthings.jpeg": "/static/media/strangerthings.25423e5ae82751d91751.jpeg",
+    "static/media/avenger.jpg": "/static/media/avenger.936da9f382fff04acfde.jpg",
+    "static/media/notfound.jpg": "/static/media/notfound.b7fb3d021fc284389839.jpg",
+    "static/media/play.svg": "/static/media/play.73d72a5fabde1830e0985ad75ae374fb.svg",
+    "static/media/app.svg": "/static/media/app.709c1ac0737d8cbbb2588912ba367a64.svg",
+    "static/media/instagram.svg": "/static/media/instagram.43bb1c81d9b9b044eafb8b23fb944b8a.svg",
+    "index.html": "/index.html",
+    "static/media/twitter.svg": "/static/media/twitter.d40d391a22b96392f3f31827ccd7ebbf.svg",
+    "static/media/facebook.svg": "/static/media/facebook.dec54804a2500825a0324ce3dd94177a.svg",
+    "main.8d112938.css.map": "/static/css/main.8d112938.css.map",
+    "main.d888facf.js.map": "/static/js/main.d888facf.js.map",
+    "787.7c42db31.chunk.js.map": "/static/js/787.7c42db31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d112938.css",
+    "static/js/main.d888facf.js"
+  ]
+}
