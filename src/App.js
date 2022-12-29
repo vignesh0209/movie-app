@@ -10,9 +10,10 @@ import Series from './components/Series';
 
 
 
+
 function App() {
   return (
-    <BrowserRouter>
+  <BrowserRouter>
       <div className="App">
         <NavBar />
         <Routes>
@@ -25,6 +26,7 @@ function App() {
         <Footer />
       </div>
     </BrowserRouter>
+
   );
 }
 
